@@ -4,6 +4,450 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- CIRCLE BACKGROUND START -->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!-- CIRCLE BACKGROUND STOP -->
+    <!-- OVERLAY START -->
+    <div class="overlay"></div>
+    <!-- OVERLAY STOP -->
+    <!-- START MAIN -->
+    <div class="main">
+      <!-- HEADER START -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li><a href="#" class="nav-item link-item">blog</a></li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- HEADER STOP -->
+      <section class="home-section align-item-center active" id="home">
+        <div class="container">
+          <div class="row align-item-center">
+            <div class="home-text">
+              <p>Hi, I'm</p>
+              <h1>M. Nur Syami</h1>
+              <h2>Fullstack Web Developer</h2>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">portofolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="assests/foto/foto-hero-jpg.jpg" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- START ABOUT -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="assests/foto/foto-hero-jpg.jpg" alt="foto about" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Undergraduate students who have experience developing Full stack
+                Javascript Websites especially MERN, are very passionate about
+                working with teams to learn and grow together and have a useful
+                impact.
+              </p>
+              <h3>Skills</h3>
+              <div class="skills">
+                <div class="skill-item">html</div>
+                <div class="skill-item">css</div>
+                <div class="skill-item">javascript</div>
+                <div class="skill-item">bootstrap</div>
+                <div class="skill-item">tailwindcss</div>
+                <div class="skill-item">reactjs</div>
+                <div class="skill-item">react native</div>
+                <div class="skill-item">nextjs</div>
+                <div class="skill-item">mongodb</div>
+                <div class="skill-item">c</div>
+                <div class="skill-item">c++</div>
+                <div class="skill-item">linux</div>
+                <div class="skill-item">expressjs</div>
+                <div class="skill-item">nodejs</div>
+              </div>
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  education
+                </button>
+                <button type="button" class="tab-item" data-target="#exprience">
+                  experince
+                </button>
+
+                <!-- EDUCATION START -->
+                <div class="tab-content active" id="education">
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <span class="date">2021 - 2025</span>
+                      <h4>
+                        Bachelor of Science -
+                        <span> Maritime Raja Ali Haji University</span>
+                      </h4>
+                      <p>
+                        Currently I am a student majoring in informatics
+                        engineering
+                      </p>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="date">2018 - 2021</span>
+                      <h4>
+                        Computer and Network Engineering -
+                        <span> SMK NEGERI 1 Tanjungpinang</span>
+                      </h4>
+                      <p>Previously, I studied computers and networks</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- EDUCATION END -->
+                <!-- EXPRERIENCE START -->
+                <div class="tab-content" id="exprience">
+                  <div class="timeline">
+                    <div class="timeline-item">
+                      <span class="date"> Sep 2023 - Dec 2023 </span>
+                      <h4>
+                        Studi Independen MSIB Full-Stack Web Development-
+                        <span>Website Literasi Kita</span>
+                      </h4>
+                      <p>
+                        Now I am building the Literacy Kita website in
+                        collaboration with the team.
+                      </p>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="date"> Feb 2023 - Augst 2023 </span>
+                      <h4>
+                        Studi Independen MSIB Red Hat Certified System
+                        Administrator IBM AI & Cyber Security -
+                        <span>RHCSA Certified</span>
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Magnam impedit laboriosam ex saepe. Qui repellendus
+                        possimus asperiores, nesciunt magni voluptatibus!
+                      </p>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="date"> Okt 2022 - Dec 2022 </span>
+                      <h4>
+                        Full Stack Developer - <span>Sicerdik Website</span>
+                      </h4>
+                      <p>
+                        The Tanjungpinang City Education Office previously
+                        needed a Development Team to work on building an
+                        application to help students when they moved to a new
+                        school or another school. I built Backend Web Apps for
+                        Schools and the Education Office of Tanjungpinang City,
+                        created an API by connecting the mongodDB database, and
+                        integration from the backend API to the frontend and
+                        deployed the website.
+                      </p>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="date"> Jan 2022 - Feb 2022 </span>
+                      <h4>
+                        Android Developer -
+                        <span>Android Qr CodeApp Absensi Lab</span>
+                      </h4>
+                      <p>
+                        build a mobile-based application, namely an application
+                        to scan barcodes for lab use attendance systems
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- EXPRERIENCE STOP -->
+                <a
+                  href="assests/cv/CV - MUHAMAD NUR SYAMI.pdf"
+                  class="btn"
+                  target="_blank"
+                  >download cv</a
+                >
+                <a href="#contact" class="btn link-item">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END ABOUT -->
+      <!-- PORTOFOLIO START -->
+      <section class="portofolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work in skilvul</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portofolio-item">
+              <div class="portofolio-item-thumbnail">
+                <img
+                  src="assests/project/foto-project-1.PNG"
+                  alt="foto portofolio 1"
+                />
+              </div>
+              <h3 class="portofolio-item-title">Literasi Kita</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portofolio-items-details">
+                <div class="description">
+                  <p>
+                    LiterasiKita is built with HTML, CSS, and JS without a
+                    responsive website and without any framework
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>17 Augst 2023</span></li>
+                    <li>Techonology used - <span>Html, Css, Js</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://skilvul-task1-landingpage.vercel.app/"
+                          target="_blank"
+                          >skilvul-task1-landingpage.vercel.app</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="portofolio-item">
+              <div class="portofolio-item-thumbnail">
+                <img
+                  src="assests/project/foto-project-2.PNG"
+                  alt="foto portofolio 2"
+                />
+              </div>
+              <h3 class="portofolio-item-title">Body Mass Index Calculate</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portofolio-items-details">
+                <div class="description">
+                  <p>
+                    Body Mass Index was built with HTML, CSS Js to measure a
+                    person's weight, please visit!
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>18 Sep 2023</span></li>
+                    <li>Techonology used - <span>Html, Css, Js</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://skilvul-task2-bmi-calculator-17j1z4zye-muhamadnursyami.vercel.app/"
+                          target="_blank"
+                          >https://skilvul-task2-bmi-calculator-muhamadnursyami.vercel.app/</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="portofolio-item">
+              <div class="portofolio-item-thumbnail">
+                <img
+                  src="assests/project/foto-project-3.PNG"
+                  alt="foto portofolio 3"
+                />
+              </div>
+              <h3 class="portofolio-item-title">Personal Website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portofolio-items-details">
+                <div class="description">
+                  <p>
+                    Personal websites are built with HTML, CSS and JS and are
+                    responsive.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>2 Oct 2023</span></li>
+                    <li>Techonology used - <span>Html, Css, Js</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a href="#" target="_blank">www.example.com</a></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PORTOFOLIO STOP -->
+      <!-- BLOG START -->
+      <!-- <section></section> -->
+      <!-- BLOG STOP -->
+
+      <!-- CONTACT START -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form>
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Email"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>nursami385@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>+62 31-6160-4699</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://www.instagram.com/m.nursami18/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="https://twitter.com/nursami18" target="_blank">
+                    <i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/muhamad-nur-syami-93b979221/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/muhamadnursyami" target="_blank">
+                    <i class="fab fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT STOP -->
+    </div>
+    <!-- END MAIN -->
+
+    <!-- PORTOFOLIO ITEM DETAILS START-->
+    <div class="portfolio-popup">
+      <div class="pp-inear">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img
+                src="assests/project/foto-project-1.PNG"
+                alt="foto-thumbnail-detail"
+              />
+            </div>
+            <h3></h3>
+            <div class="pp-body"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- PORTOFOLIO ITEM DETAILS STOP-->
+
+    <script src="script.js"></script>
+  </body>
 </html>
